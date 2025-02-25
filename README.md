@@ -56,5 +56,16 @@ Implement batch normalization
 Add support for different optimization techniques (e.g., Adam, RMSprop)
 Extend to convolutional layers for image processing
 
+
+
+
+## Other notebooks
+This project also holds some labs notebooks  
+- MNIST_conv.ipynb
+- Autodiff.ipynb
+- Layers_and_Models.ipynb
+- Segmentation.ipynb
+
+
 License
 This project is open-source and free to use for educational purposes. I did this as part of an assignment for my AI Msc. 
