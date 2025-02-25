@@ -19,7 +19,7 @@ Ensure you have the following dependencies installed:
 
 ```bash
 pip install numpy matplotlib opencv-python scikit-learn tensorflow
-
+```bash
 
 Dataset Preparation
 The dataset should be preprocessed and split into training and testing sets. Ensure that X_train and y_train are correctly formatted before training.
@@ -27,26 +27,26 @@ The dataset should be preprocessed and split into training and testing sets. Ens
 Usage
 Training the Model
 Modify the hyperparameters as needed:
-
+```bash
 hidden_units = [64, 32]  # Adjust the network architecture
 alpha = 0.001  # Learning rate
 weights, biases, loss_history = train(X_train, y_train, hidden_units=hidden_units, alpha=alpha)
-
+```bash
 Predicting
 Use the trained model to make predictions:
-
+```bash
 y_pred = predict(X_test, weights, biases)
-
+```bash
 Visualizing Loss Curve
 Plot the loss curve to observe training progress:
-
+```bash
 import matplotlib.pyplot as plt
 plt.plot(loss_history)
 plt.xlabel('Iterations')
 plt.ylabel('Loss')
 plt.title('Training Curve')
 plt.show()
-
+```bash
 Customization
 Modify activation functions (tanH or logistic)
 Adjust regularization (lambda_reg)
